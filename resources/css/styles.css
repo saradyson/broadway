@@ -7,12 +7,40 @@ h1 {
     font-size: 70px;
 }
 
-.header {
+.header,
+#designed {
     background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+
+h1, 
+.footer,
+#designed, 
+a {
     color: #fff;
+}
+
+.header li {
+    line-height: 2.5;
 }
 
 ul {
     list-style: none;
     
+}
+
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 23px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: dimgray;
+    font-size: 11px;
+    text-align: left;
 }
